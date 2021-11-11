@@ -69,7 +69,7 @@ class App extends Component {
     const filteredResults = this.filterContacts();
     return (
       <Container>
-        <h2 className={style.title}>Phonebook</h2>
+        <h2 className={style.title}>Phone book</h2>
         <ContactForm onSubmit={this.addContact} />
         <h2 className={style.title}>Contacts</h2>
         <Filter value={filter} onChange={this.changeFilter} />
