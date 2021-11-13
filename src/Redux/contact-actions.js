@@ -2,12 +2,12 @@ import { createAction } from '@reduxjs/toolkit';
 import { nanoid } from 'nanoid';
 // import types from './contact-types';
 
-export const addContact = createAction('contact/add', (text, number) => {
+export const addContact = createAction('contact/add', (name, number) => {
   return {
     payload: {
-      id: nanoid(),
-      name: text,
-      phone: number,
+      id: nanoid(5),
+      name: name,
+      number: number,
     },
   };
 });
