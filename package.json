@@ -2,7 +2,7 @@
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rom0105.github.io/goit-react-hw-04-hooks-phonebook",
+  "homepage": "https://rom0105.github.io/goit-react-hw-06-phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
